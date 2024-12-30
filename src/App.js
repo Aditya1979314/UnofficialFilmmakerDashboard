@@ -12,9 +12,9 @@ function App() {
 const[navbaropen,setnavbaropen] = useState(false);
 
   return (
-    <div className="bg-[#E5EBED] h-screen">
+    <div className="">
        <BrowserRouter>
-       <Hamburgericon setnavbaropen={setnavbaropen} navbaropen={navbaropen}/>
+      <Hamburgericon setnavbaropen={setnavbaropen} navbaropen={navbaropen}/>
       {
         navbaropen && <PhoneNavbar/>
       }
